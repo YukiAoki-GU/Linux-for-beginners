@@ -4,6 +4,7 @@ sudo apt -y install fswebcam
 #追加のNodeのインストール
 cd ~/.node-red
 npm install node-red-dashboard #ダッシュボード
+npm install node-red-node-pi-gpio #GPIO
 npm install node-red-contrib-teachable-machine #teachable machine
 npm install node-red-contrib-image-output #イメージ出力
 npm install node-red-contrib-python3-function #Python用
